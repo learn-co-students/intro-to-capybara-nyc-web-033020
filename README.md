@@ -470,7 +470,7 @@ This new test is trying to mimic what a user should see when they visit the
 greeting form, fill in the name 'Avi', and click the 'Submit' button. Because of
 the amazing `RSpec` DSL mixed in with `Capybara`, our test is able to clearly
 and simply describe that behavior.
-
+ 
 We `visit '/'` to load the form into the `page` object.
 
 Then we use the Capybara method `fill_in` to fill in the input field `user_name`
